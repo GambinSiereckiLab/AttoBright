@@ -1,0 +1,131 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1248546745" file="C:\Users\z3521938.ADUNSW\Desktop\source files\peakpickdir_App.prj" location="C:\Users\z3521938.ADUNSW\Desktop\source files" name="peakpickdir_App" preferred-package-location="C:\Users\z3521938.ADUNSW\Desktop\packagedinstallers" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>SMSpectroscopyAnalyser</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>James Brown</param.authnamewatermark>
+    <param.email>james.brown@unsw.edu.au</param.email>
+    <param.company />
+    <param.summary />
+    <param.description>Requires ghostscript and export_fig</param.description>
+    <param.screenshot>\\INFPWFS1403.ad.unsw.edu.au\Staff112$\z3521938\datatestinggui\figures\figforgui.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\SMSpectroscopyAnalyser\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>C:\Users\z3521938.ADUNSW\Desktop\testingfiles</param.intermediate>
+    <param.files.only>C:\Users\z3521938.ADUNSW\Desktop\redistributionfiles</param.files.only>
+    <param.output>C:\Users\z3521938.ADUNSW\Desktop\packagedinstallers</param.output>
+    <param.logdir>C:\Users\z3521938.ADUNSW\Desktop\packaging log</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>SMSInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>true</param.create.log>
+    <param.log.file>log</param.log.file>
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.company />
+      <param.summary />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\app designer\veryfrontpage_App.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\app designer\brightness_App.mlapp</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\app designer\brightnessdir_App.mlapp</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\app designer\FCS_App.mlapp</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\app designer\FCSdir_App.mlapp</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\app designer\frontpage_App.mlapp</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\app designer\frontpagedir_App.mlapp</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\app designer\peakpick_App.mlapp</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\app designer\peakpickdir_App.mlapp</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\fcscorrfit_1compnotrip.m</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\fcscorrfit_1comptrip.m</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\fcscorrfit_2compnotrip.m</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\fcscorrfit_2comptrip.m</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\fileave1col.m</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\peakpickautothresh.m</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\peakpickmanthresh.m</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\plotfig1col.m</file>
+      <file>\\infpwfs1403.ad.unsw.edu.au\staff112$\z3521938\testgui\plotfigraw1col.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\copyfig.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\crop_borders.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\eps2pdf.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\export_fig.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\fix_lines.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\ghostscript.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\isolate_axes.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\pdf2eps.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\pdftops.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\print2array.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\print2eps.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\read_write_entire_textfile.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\user_string.m</file>
+      <file>C:\Users\z3521938.ADUNSW\Downloads\altmany-export_fig-cafc7c5\altmany-export_fig-cafc7c5\using_hg2.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="C:\Users\z3521938.ADUNSW\Desktop\testingfiles" name="SMSpectroscopyAnalyser.exe" optional="false">C:\Users\z3521938.ADUNSW\Desktop\testingfiles\SMSpectroscopyAnalyser.exe</file>
+      <file location="C:\Users\z3521938.ADUNSW\Desktop\testingfiles" name="readme.txt" optional="true">C:\Users\z3521938.ADUNSW\Desktop\testingfiles\readme.txt</file>
+      <file location="C:\Users\z3521938.ADUNSW\Desktop\testingfiles" name="splash.png" optional="false">C:\Users\z3521938.ADUNSW\Desktop\testingfiles\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
